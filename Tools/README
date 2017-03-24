@@ -5,7 +5,7 @@ Simple Web Tester v1.0
 3   Brute Force SSH         If port 22 open, execute brute-force # use option  --brute-force
 
 
-usage: tools.py [-h] [-T HOST_NAME] [--search-default] [--brute-force] [-s]
+usage: tools.py [-h] -T HOST_NAME [--search-default] [--brute-force] [-s]
 
 
 optional arguments:

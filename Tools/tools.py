@@ -78,7 +78,7 @@ args = argparse.ArgumentParser(formatter_class=argparse.RawDescriptionHelpFormat
                 3   Brute Force SSH         If port 22 open, execute brute-force # use option  --brute-force
                 '''))
 
-args.add_argument('-T', dest='host_name', help='Target Hostname', required=False)
+args.add_argument('-T', dest='host_name', help='Target Hostname', required=True)
 args.add_argument('--search-default', dest='sw_search', action='store_true', help='Search the default page when port 80 is opened', required=False)
 args.add_argument('--brute-force', dest='sw_brute', action='store_true', help='Execute the Brute-Force attack when port 22 is opened', required=False)
 args.add_argument('-s','--save', dest='sw_save',action='store_true', help='Save to file.\t\tADD AT v2.0', required=False)
