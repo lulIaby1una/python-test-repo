@@ -1,0 +1,24 @@
+----------------------------------------------------------------------
+Simple Web Tester v1.0
+----------------------------------------------------------------------
+Now you are checking the...
+	Host	192.168.9.200
+	Host_IP	192.168.9.200
+
+Checking opened port for...
+	PORT   21
+	PORT   22
+	PORT   23
+	PORT   80
+	PORT  443
+	PORT 3306
+Port scanning Completed.
+----------------------------------------------------------------------
+Searching for Default Pages at 80(web).
+http://192.168.9.200/admin/index.php		200 OK
+http://192.168.9.200/phpMyAdmin/index.php		200 OK
+----------------------------------------------------------------------
+execute the Brute-Force Attack
+	Enter SSH username	:	Enter DiC file path	:apple - Not Match
+banana - Not Match
+coconut - Not Match

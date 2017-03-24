@@ -1,0 +1,37 @@
+Simple Web Tester v1.0
+-----------------------------------------------------------------------------------------------
+1   Port Scan               21 22 23 80 443 3306
+2   Search Default Page     If port 80 open, search default-page # use option  --search-default
+3   Brute Force SSH         If port 22 open, execute brute-force # use option  --brute-force
+
+
+usage: tools.py [-h] [-T HOST_NAME] [--search-default] [--brute-force] [-s]
+
+
+optional arguments:
+  -h, --help        show this help message and exit
+  -T HOST_NAME      Target Hostname
+  --search-default  Search the default page when port 80 is opened
+  --brute-force     Execute the Brute-Force attack when port 22 is opened
+  -s, --save        Save to file.
+
+
+TEST DESCRIPTION
+
+	Development Env		:	OS		=	macOS
+							LANG 	= 	python-2.7.10
+											pyenv	virtualenv	autoenv
+							IDE		=	VI Editor
+										(plugins)
+											The-NERD-Tree
+											AutoComplPop
+											taglist-plus
+											Syntastic
+											quickrun.vim
+											gmarik/Vundle.vim
+											L9
+											git://git.wincent.com/command-t.git	
+											rstacruz/sparkup
+
+	GitHub Repository	:	
+
