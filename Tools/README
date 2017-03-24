@@ -18,20 +18,22 @@ optional arguments:
 
 TEST DESCRIPTION
 
-	Development Env		:	OS		=	macOS
-							LANG 	= 	python-2.7.10
-											pyenv	virtualenv	autoenv
-							IDE		=	VI Editor
-										(plugins)
-											The-NERD-Tree
-											AutoComplPop
-											taglist-plus
-											Syntastic
-											quickrun.vim
-											gmarik/Vundle.vim
-											L9
-											git://git.wincent.com/command-t.git	
-											rstacruz/sparkup
+	Development Env
+		OS      = macOS
+		LANG    = python-2.7.10
+                  pyenv	virtualenv	autoenv
+		IDE     = VI Editor
+                  (plugins)
+					The-NERD-Tree
+					AutoComplPop
+					taglist-plus
+					Syntastic
+					quickrun.vim
+					gmarik/Vundle.vim
+					L9
+					git://git.wincent.com/command-t.git	
+					rstacruz/sparkup
 
-	GitHub Repository	:	
+	GitHub Repository
+		https://github.com/lulIaby1una/python-test-repo/tree/master/Tools
 
