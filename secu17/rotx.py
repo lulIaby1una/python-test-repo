@@ -16,9 +16,9 @@ for key in range(len(LETTERS)):
             if num < 0:
                 num = num + len(LETTERS)
 
-                translated = translated + LETTERS[num]
+            translated = translated + LETTERS[num]
 
         else:
-                translated = translated + symbol
+            translated = translated + symbol
 
     print('key #%s: %s' % (key, translated))
